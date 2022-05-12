@@ -1,0 +1,241 @@
+@media (min-width: 1200px) {
+  
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container{
+    padding: 0 30px;
+  }
+  .first-screen{
+    &__card{
+
+      &-title{
+        white-space: normal;
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container{
+    padding: 0 20px;
+  }
+  .first-screen {
+    padding-top: 160px;
+    &__title {
+      font-size: 48px;
+      line-height: 50px;
+    }
+    &__card{
+      padding: 30px 20px 30px 20px;
+      height: 100%;
+      &-title{
+        white-space: normal;
+      }
+    }
+
+  }
+  .choose {
+    padding: 170px 0 50px;
+    background: #FAFAFA;
+  }
+  .practice {
+    padding: 80px 0 60px;
+    &__card-info {
+      padding: 20px 0 10px 20px;
+    }
+  }
+  .service {
+    padding: 60px 0;
+    &__content{
+      flex-direction: column;
+    }
+    &__video{
+      width: 100%;
+      height: 60vw;
+    }
+    &__info{
+      width: 100%;
+      &-title{
+        text-align: center;
+      }
+      &-subtitle{
+        text-align: center;
+      }
+      &-item{
+        justify-content: center;
+      }
+    }
+  }
+  .subscribe__input{
+    width: 260px;
+  }
+  .col-md-6{
+    margin-top: 20px;
+  }
+
+}
+@media (max-width: 767px) {
+  .burger {
+    display: block;
+    position: relative;
+    z-index: 9;
+  }
+  .burger.open{
+    position: fixed;
+    z-index: 6;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    &::before{
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 2px;
+      background-color: black;
+      top: 20px;
+      left: 0;
+      transform: rotate(45deg);
+      transition: 3s;
+    }
+    &::after{
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 2px;
+      background-color: black;
+      top: 20px;
+      left: 0;
+      transform: rotate(-45deg);
+      transition: 3s;
+    }
+  }
+  .burger.open svg{
+    display: none;
+  }
+  .burger.open svg path{
+    fill: #fff;
+  }
+
+  .header__menu{
+    display: none;
+    &_active{
+      position: fixed;
+      width: 50%;
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: skyblue;
+      row-gap: 20px;
+      top: 0;
+      right: 0;
+      z-index: 5;
+    }
+  }
+
+  .container{
+    padding: 0 20px;
+  }
+  .first-screen {
+    padding-top: 160px;
+    &__title {
+      font-size: 48px;
+      line-height: 50px;
+    }
+    &__card{
+      padding: 30px 20px 30px 20px;
+      height: 100%;
+      &-title{
+        white-space: normal;
+      }
+    }
+
+  }
+  .choose {
+    padding: 125px 0 50px;
+  }
+  .choose__row {
+     margin: 0;
+    row-gap: 35px;
+  }
+  .practice {
+    padding: 80px 0 60px;
+    &__card-info {
+      padding: 20px 0 10px 20px;
+    }
+  }
+  .service {
+    padding: 60px 0;
+    &__content{
+      flex-direction: column;
+    }
+    &__video{
+      width: 100%;
+      height: 60vw;
+    }
+    &__info{
+      width: 100%;
+      &-title{
+        text-align: center;
+      }
+      &-subtitle{
+        text-align: center;
+      }
+      &-item{
+        justify-content: center;
+      }
+    }
+  }
+  .subscribe__input{
+    width: 260px;
+  }
+  .first-screen_p {
+    margin-bottom: 30px;
+  }
+  .first-screen__title {
+    text-align: center;
+  }
+  .first-screen__subtitle{
+    text-align: center;
+  }
+  .first-screen__btns {
+    align-items: center;
+    flex-direction: column;
+    column-gap: 0;
+    margin-bottom: 40px;
+    row-gap: 30px;
+  }
+  .first-screen__row {
+    position: relative;
+    top: 0;
+
+  }
+  .subscribe__block2{
+    flex-direction: column;
+  }
+  .subscribe__title{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .subscribe__row{
+    row-gap: 20px;
+    flex-direction: row-reverse;
+
+  }
+  .subscribe__icon {
+    justify-content: center;
+  }
+  .touch__row{
+    justify-content: center;
+    row-gap: 20px;
+  }
+  .footer__row{
+    row-gap: 20px;
+  }
+}
+@media (max-width: 480px) {
+
+}
+@media (max-width: 320px) {
+
+}

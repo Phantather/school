@@ -1,0 +1,41 @@
+
+.choose{
+  padding: 211px 0 80px;
+  background: #FAFAFA;
+  &__title{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  &__subtitle{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 50px;
+  }
+  &__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    row-gap: 10px;
+    img {
+      width: 100%;
+    }
+  }
+  &__row{
+    margin: 0 -20px;
+  }
+
+}

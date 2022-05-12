@@ -1,0 +1,36 @@
+@import "../libs/bootstrap/bootstrap-grid.min.css";
+@import "../libs/fancybox/fancybox.css";
+@import "../fonts/Montserrat/stylesheet.css";
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+.container{
+  max-width: 1050px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.burger{
+  display: none;
+}
+
+
+@import "./header";
+@import "./first-screen";
+@import "./choose";
+@import "practice";
+@import "service";
+@import "subscribe";
+@import "touch";
+@import "contact";
+@import "footer";
+@import "media";
+
+

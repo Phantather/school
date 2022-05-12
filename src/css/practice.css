@@ -1,0 +1,63 @@
+.practice {
+  padding: 125px 0 101px;
+  background: #FAFAFA;
+}
+.practice__title {
+  font-family: Montserrat sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.practice__subtitle {
+  font-family: Montserrat sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-bottom: 45px;
+}
+.practice__card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.practice__card-img {
+  width: 100%;
+}
+.practice__card-info {
+  padding: 15px 5px;
+}
+.practice__card-title {
+  font-family: Montserrat sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+  margin-bottom: 15px;
+}
+.practice__card-subtitle {
+  font-family: Montserrat sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.practice__p {
+  padding: 0 20px;
+}
+.practice__row {
+  margin: 0 -20px;
+}

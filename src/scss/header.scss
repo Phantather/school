@@ -1,0 +1,42 @@
+.header{
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  &__navbar{
+    width: 100%;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__menu{
+    display: flex;
+    column-gap: 21px;
+    list-style-type: none;
+  }
+  &__left{
+    display: flex;
+    column-gap: 117px;
+    align-items: center;
+    justify-content: center;
+  }
+  &__list{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    transition: .5s;
+
+    &-link{
+      color: #fff;
+      text-decoration: none;
+      &:hover{
+        border-bottom: 1px solid #fff ;
+        transition: .5s;
+      }
+    }
+  }
+}

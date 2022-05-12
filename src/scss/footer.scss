@@ -1,0 +1,63 @@
+.footer{
+  &__menu{
+    padding: 50px 0;
+    background: #16697A;
+  }
+  &__card{
+    &-title{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+
+    }
+    &-list{
+      list-style-type: none;
+    }
+    &-item{
+      margin-bottom: 10px;
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      color: #FFFFFF;
+      &_last{
+        display: flex;
+        column-gap: 10px;
+        align-items: center;
+        a{
+          color: white;
+          text-decoration: none;
+        }
+      }
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+  &__navbar{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    &-title{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      color: #737373;
+    }
+    &-list{
+      display: flex;
+      list-style-type: none;
+      column-gap: 20px;
+    }
+  }
+}

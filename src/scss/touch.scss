@@ -1,0 +1,91 @@
+.touch{
+  padding: 80px 0 148px;
+  background: #F3F3F3;
+  &__title{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-align: center;
+  }
+  &__subtitle{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin: 10px 0 110px;
+  }
+  &__card{
+    padding: 50px 0;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &_big{
+      padding: 80px 0;
+      background: #252B42;
+      color: white;
+    }
+    &-img{
+      margin-bottom: 15px;
+    }
+    &-subtitle{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      color: #252B42;
+    }
+    &-title{
+      margin: 15px 0 ;
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      color: #252B42;
+    }
+    &-btn{
+      width: 160px;
+      height: 44px;
+      background-color: transparent;
+      border: 1px solid #FFA62B;
+      border-radius: 5px;
+      cursor: pointer;
+      outline: none;
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      color: #FFA62B;
+      transition: .3s;
+      &:hover{
+        transform: scale(1.2);
+        transition: .3s;
+        font-style: italic;
+      }
+    }
+  }
+  &__card_big{
+    .touch__card-subtitle, .touch__card-title{
+      color: white;
+    }
+    .touch__card-btn{
+      color: white;
+      border: 1px solid white;
+    }
+
+  }
+}
