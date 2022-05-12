@@ -2,12 +2,18 @@
   width: 100%;
   position: absolute;
   z-index: 2;
+  &_news{
+    background: #00A0C1;
+  }
   &__navbar{
     width: 100%;
     height: 104px;
     display: flex;
     justify-content: center;
     align-items: center;
+    &_news{
+      background: #00A0C1;
+    }
   }
   &__menu{
     display: flex;
@@ -40,3 +46,4 @@
     }
   }
 }
+

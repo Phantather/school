@@ -74,6 +74,9 @@
 
 }
 @media (max-width: 767px) {
+  .header_news {
+    background: transparent;
+  }
   .burger {
     display: block;
     position: relative;
